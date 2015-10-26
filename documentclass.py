@@ -16,3 +16,6 @@ class document:
 	def tokenize(self, chaine, lang='fr'):
 		"retourne une liste chaine segmentée en mots, phrases et paragraphes"
 		
+
+## main
+d = document(sys.argv[1]) # create a new document instance from file given as command line parameter
